@@ -25,15 +25,10 @@ for i in tqdm(range(30)):
     BA_position,BA_fitness = ba(N=100, minFreq=0, maxFreq=2, alpha=0.01, gamma=0.3)
     BA_list.append((BA_position,BA_fitness))
 
-# print("SA: ",SA_list)
-# print("CSO: ", CSO_list)
-
-# CSO plot
+# CSO plot with position
 plt.plot([x[0] for x in CSO_list], [x[1] for x in CSO_list],color="orange")
-# SA plot
+# SA plot with position
 plt.plot([x[0] for x in SA_list], [x[1] for x in SA_list],color="blue")
-# BA plot
-# plt.plot([x[0] for x in BA_list], [x[1] for x in BA_list],color="green")
 
 plt.xlabel('positions')
 plt.ylabel('fitness')
