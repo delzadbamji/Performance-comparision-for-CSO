@@ -22,7 +22,7 @@ elif algo == "DE":
 else:
   best_value = pso_sol()
 
-function = ["Egg_crate","T1","Ackley","Rosenbrock",]
+function = ["Egg_crate","T1","Ackley","Rosenbrock"]
 
 plt.plot(c_iteration, c_best_value, label="CSO")
 plt.plot([i for i in range(500)], best_value, label=algo)
