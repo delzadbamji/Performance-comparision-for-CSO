@@ -1,9 +1,3 @@
-''' 
- ************************
-  @author Delzad Bamji
-  @author Anuj K
- *************************
-'''
 
 import matplotlib.pyplot as plt
 from Algo.CSO import solution as cso_sol
@@ -12,6 +6,17 @@ from Algo.DE import solution as de_sol
 from Algo.PSO import solution as pso_sol
 from Algo.FA import solution as fa_sol
 from Algo.BA import solution as bat_sol
+
+
+"""
+#########################################
+Runner File
+@author Delzad Bamji 
+@author Anuj K
+#########################################
+"""
+
+
 
 algo = "PSO"
 
